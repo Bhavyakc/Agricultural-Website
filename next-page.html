@@ -1,0 +1,72 @@
+<body>
+
+<link rel="stylesheet" type="text/css" href="nextpage.css">  
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <img src="MoneypalLogo.png" alt="Logo">
+            <h1>Modern Agriculture</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Registration Form -->
+<form name="myform" action="nextpage.php" method="post" id="registration-form">
+	<h2>Registration Form</h2>
+	<div class="form-group">
+		<label for="full-name">Full Name:</label>
+		<input type="text" id="full-name" name="full-name" required>
+		<span id="name-error" class="error-message"></span>
+	</div>
+	<div class="form-group">
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" required>
+		<span id="email-error" class="error-message"></span>
+	</div>
+	<div class="form-group">
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<span id="password-error" class="error-message"></span>
+	</div>
+	<div class="form-group">
+		<label for="confirm-password">Confirm Password:</label>
+		<input type="password" id="confirm-password" name="confirm-password" required>
+		<span id="confirm-password-error" class="error-message"></span>
+	</div>
+	<div class="form-group">
+		<label for="mobile-number">Mobile Number:</label>
+		<input type="tel" id="mobile-number" name="mobile-number" required>
+		<span id="mobile-error" class="error-message"></span>
+	</div>
+	<div class="form-group">
+		<label for="10-marks">10 Marks:</label>
+		<input type="number" id="10-marks" name="10-marks" min="0" max="100" required>
+		<span id="10-marks-error" class="error-message"></span>
+	</div>
+	<div class="form-group">
+		<label for="12-marks">12 Marks:</label>
+		<input type="number" id="12-marks" name="12-marks" min="0" max="100" required>
+		<span id="12-marks-error" class="error-message"></span>
+	</div>
+	<button type="submit" class="submit-btn">Register</button>
+</form>
+	
+
+<footer>
+	<div class="footer-container">
+		<p>&copy; Bhavyakc All rights reserved.</p>
+	</div>
+</footer>
+
+</body>
+
+<!-- //Form Validation -->
+<script src="next-page.js"></script> 
